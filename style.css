@@ -1,0 +1,48 @@
+.container-sm{
+
+    background-color: aqua;
+
+    height: 300px;
+
+    text-align: center;
+
+    padding: 1rem;
+
+    margin-top: 4rem;
+}
+
+.row-sm{
+
+    background-color: red;
+
+    height: 250px;
+
+    text-align: center;
+
+    padding: 1rem;
+
+}
+
+
+.column-sm{
+
+    background-color: bisque;
+
+    height: 200px;
+
+    text-align: center;
+
+    padding: 1rem;
+
+}
+
+
+.container-fluid{
+
+    text-align: center;
+
+    background-color: aquamarine;
+
+    height: 200px;
+
+}
