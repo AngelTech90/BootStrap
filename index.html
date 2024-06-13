@@ -19,13 +19,26 @@
 
         Container
 
-        <div class = "row-sm">
+        <div class = "row">
 
-            Row
+            <p>Row</p>
 
-            <div class = "column-sm">
+            <!-- * Here we can define that our element take 6 columns of the 12 columns that our row have -->
+            <div class = "col">
 
-                Column
+                Column 1
+
+            </div>
+
+            <div class = "col">
+
+                Column 2
+
+            </div>
+
+            <div class = "col">
+
+                Column 3
 
             </div>
 
@@ -41,5 +54,111 @@
 
     </div>
 
+    <!-- *When we use a built-in class in bootstrap we can add a personal class for work with it in css-->
+
+    <!-- *A very interesting feature too in bootstrap is that we can stack our classes one above other for example our breakpoints and our elements size for every one -->
+    <div class="container text-center boxForExample">
+
+        Container
+
+        <div class = "row exampleRow">
+
+            <p>Row</p>
+
+            <div class = "col-sm-3  col-lg-4 elementForExample">
+
+                element 1
+
+            </div>
+
+            <div class = "col-sm-8 col-lg-6 elementForExample2">
+
+                element 2
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- *A bootstrap component is a stylized HTML element that we can recycle in every part of our code -->
+
+    <!-- *Here some examples -->
+
+    <div class = "container text-center componentContainer">
+
+        container
+
+        <div class="row ">
+
+            <p>Row</p>
+
+            <div class = "col-sm-3">
+
+                <div class = "accordion">
+
+                    <div class = "accordion-item">
+
+                        <h2 class = "accordion-header">
+
+                            <button class = "accordion-button" >
+
+                                Item 1
+
+                            </button>
+
+                        </h2>
+
+                        <div class = "accordion-collapse">
+
+                            <div class = "accordion-body">
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, amet molestias? Fuga explicabo delectus officiis nostrum, fugiat eveniet sequi numquam quas quis, odit aliquid architecto deleniti earum aspernatur atque enim?
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container text-center componentButtons">
+
+        <div class = "row buttonsBox">
+
+        <button class = "col-sm-2 btn btn-primary">Primary</button>
+        <button class = "col-sm-2 btn btn-secondary">Secondary</button>
+        <button class = "col-sm-2 btn btn-success">Success</button>
+        <button class = "col-sm-2 btn btn-danger">Danger</button>
+        <button class = "col-sm-2 btn btn-warning">Warning</button>
+        <button class = "col-sm-2 btn btn-info">Info</button>
+        <button class = "col-sm-2 btn btn-light">Light</button>
+        <button class = "col-sm-2 btn btn-dark">Dark</button>
+        <button class = "col-sm-2 btn btn-link">Link</button>
+
+
+        </div>
+        
+    </div>
+
+
+    <!-- *Bootstrap Flexbox -->   
+
+    <!-- *Creating a new flexbox container -->
+    <div class="d-flex flexboxExample">
+
+
+    </div>
+
 </body>
 </html>
+
+<!--* We stop in 2:00:26 -->

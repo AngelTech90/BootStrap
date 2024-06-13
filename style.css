@@ -2,37 +2,38 @@
 
     background-color: aqua;
 
-    height: 300px;
-
     text-align: center;
 
     padding: 1rem;
 
     margin-top: 4rem;
+
+    border: solid 3px black;
+
 }
 
-.row-sm{
+.row{
 
     background-color: red;
 
-    height: 250px;
-
     text-align: center;
 
     padding: 1rem;
+
+    border: solid 3px black;
 
 }
 
 
-.column-sm{
+.col{
 
     background-color: bisque;
-
-    height: 200px;
 
     text-align: center;
 
     padding: 1rem;
+
+    border: solid 3px black;
 
 }
 
@@ -43,6 +44,71 @@
 
     background-color: aquamarine;
 
-    height: 200px;
+    border: solid 3px black;
 
 }
+
+
+.boxForExample{
+
+    border: solid 3px black;
+
+    background-color: blue;
+
+    margin-top: 3rem;
+
+    color: azure;
+
+}
+
+.elementForExample{
+
+    border: solid 3px black;
+
+    background-color: chartreuse;
+
+}
+
+.exampleRow{
+
+    background-color: crimson;
+
+    gap:5px;
+
+}
+
+
+.elementForExample2{
+
+
+
+    border: solid 3px black;
+
+    background-color:chocolate;
+
+}
+
+
+.componentContainer{
+
+    margin-top: 3rem;
+
+    border: solid 3px black;
+
+}
+
+
+.buttonsBox{
+
+    gap:3px;
+
+}
+
+
+.componentButtons{
+
+    margin-top: 3rem;
+
+}
+
+
