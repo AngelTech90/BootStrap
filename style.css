@@ -112,3 +112,14 @@
 }
 
 
+.flexboxExample{
+
+    background-color: blueviolet;
+
+    margin-top:3rem;
+
+    color:azure;
+
+    justify-content: center;
+
+}

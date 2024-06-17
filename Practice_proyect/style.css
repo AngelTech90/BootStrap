@@ -1,0 +1,383 @@
+
+:root{
+
+    --background-color:whitesmoke;
+    --mother-box-color:#3e4042;
+    --recipes-cards-color:#323438;
+    --navbar-color:#CABFAB;
+
+}
+
+body{
+
+    background-color: var(--background-color);
+
+    color:azure;
+
+}
+
+.motherBox{
+
+    background-color: var(--mother-box-color);
+
+    flex-direction: column;
+
+}
+
+
+.carouselImage{
+
+    filter: brightness(50%);
+
+    width: 100%;
+    height:600px;
+
+    --carousel-transition-duration: 4s;
+
+}
+
+
+.carouselContainer{
+
+    padding-top: 10%;
+
+}
+
+
+.imagesContainer{
+
+    gap: 3rem;
+
+    justify-content: center;
+
+
+}
+
+.categoriesImage{
+
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 100%;
+
+    filter: brightness(50%);
+
+}
+
+
+.slideDescription{
+
+    position: relative;
+    transform: translateY(-440px);
+    left: 28%;
+    z-index: 2;
+
+    width: 500px;
+    height: 300px;
+
+    font-size: 1.5rem;
+
+    color:azure;
+
+    border:solid 4px azure;
+
+}
+
+
+.recipeTitle{
+
+    font-size: 1.7rem;
+
+}
+
+
+.rowCarousel{
+
+    display:flex;
+    justify-content: center;
+
+}
+
+.c-container{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    
+}
+
+
+.title-container{
+
+    margin-top: 7%;
+
+}
+
+.navBar{
+
+    margin: 1rem 0 3rem 0;
+
+}
+
+.navbar {
+
+    background-color:#111111;
+
+}
+
+
+.titleForCategories{
+
+    margin-top: -15%;
+    margin-bottom: 10%;
+
+}
+
+
+.imagesContainer{
+
+    margin-bottom: 4rem;
+
+}
+
+
+.categoryImageContainer{
+
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.categorieTitle{
+
+    font-size: 1.3rem;
+    text-align: center;
+    color: azure;
+
+    transform: translateY(-5rem);
+
+}
+
+
+.categoriesContainer{
+
+    margin-bottom: 3rems;
+
+}
+
+
+.recipesContainer{
+
+    margin-bottom: 3rem;
+
+}
+
+
+.recipesTitle{
+
+    margin-bottom: 3rem;
+
+    text-align: center;
+
+}
+
+
+.cardsRow{
+
+    margin-bottom: 3rem;
+
+}
+
+.card{
+
+    width: 16rem;
+
+    background-color: var(--recipes-cards-color);
+
+    color:azure;
+
+}
+
+
+.card-img-top{
+
+    height: 200px;
+
+}
+
+
+.card-title{
+
+    color:azure;
+
+    text-align: center;
+
+}
+
+
+.nav-item{
+
+    font-size: 1.5rem;
+
+}
+
+
+#navbarSupportedContent{
+
+    gap:2rem;
+
+}
+
+.navbar-brand{
+
+    font-size: 2rem;
+
+    margin-right: 7rem;
+
+}
+
+
+
+.navbar-nav{
+
+    gap:3rem;
+
+}
+
+
+.pageFooter{
+
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:3%;
+
+}
+
+.footerSection{
+
+    height: 80%;
+
+    z-index: 2;
+
+}
+
+
+#footerIconsSection{
+
+    width: 45%;
+
+    display: flex;
+
+    flex-flow: column;
+
+    align-items: end;
+
+    justify-content: center;
+
+    gap:1rem;
+
+    padding-right: 2rem;
+
+}
+
+
+.socialMediaIcon{
+
+    width: 2.5rem;
+
+    height: 2.5rem;
+
+}
+
+.socialMediaLink{
+
+    width: fit-content;
+    height: fit-content;
+
+    text-decoration: none;
+
+}
+
+
+
+#footerLinksSection{
+
+    width: 55%;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    align-items: center;
+
+}
+
+.footerImage{
+
+    z-index: 1;
+
+    width: 92%;
+    height: 23%;
+
+    filter: brightness(50%);
+
+    position: absolute;
+
+}
+
+
+#inconsBox{
+
+
+    gap:1rem;
+
+}
+
+
+.socialLinksTitle{
+
+    text-align: center;
+
+    width: 45%;
+
+}
+
+
+.footerLink{
+
+    font-size: 1.7rem;
+
+    color: azure;
+
+    text-decoration: none;
+
+}
+
+#footerLinksBox{
+
+    display: flex;
+
+    width: fit-content;
+    height: fit-content;
+
+    gap: 2rem;
+
+    margin-left: 4rem;
+
+}
+
+
+.pageMainTitle{
+
+    font-size: 4rem;
+
+}
