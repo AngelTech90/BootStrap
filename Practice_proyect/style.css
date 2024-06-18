@@ -55,7 +55,6 @@ body{
 
 .categoriesImage{
 
-
     width: 150px;
     height: 150px;
 
@@ -166,14 +165,14 @@ body{
 
 .categoriesContainer{
 
-    margin-bottom: 3rems;
+    margin-bottom: 3rem;
 
 }
 
 
 .recipesContainer{
 
-    margin-bottom: 3rem;
+    gap:1rem;
 
 }
 
@@ -362,6 +361,14 @@ body{
 
 }
 
+
+.footerLink:hover{
+
+    color:var(--recipes-cards-color);
+
+}
+
+
 #footerLinksBox{
 
     display: flex;
@@ -379,5 +386,252 @@ body{
 .pageMainTitle{
 
     font-size: 4rem;
+
+}
+
+
+@media(max-width:500px){
+
+    .motherBox{
+
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+
+    }
+
+
+    .categoriesImage{
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .recipesTitle{
+
+        font-size: 0.6rem;
+
+    }
+
+
+    .carouselImage{
+
+        height: 300px;
+
+    }
+
+
+    .cardsRow{
+
+        gap:1rem;
+
+    }
+
+    .recipesContainer{
+
+        display: flex;
+
+        flex-flow: column;
+
+        align-items: center;
+
+    }
+
+
+    .navbar-brand{
+
+        margin:0;
+
+    }
+
+    .navbar{
+
+        margin-bottom: 0.4rem;
+        margin-top: 0.5rem;
+
+    }
+
+
+    .navbar-nav{
+
+        gap:0;
+
+        text-align: center;
+
+    }
+
+
+    .nav-item{
+
+        font-size: 1rem;
+
+        height: fit-content;
+
+    }
+
+
+    .imagesContainer{
+
+        margin-top: 2rem;
+
+        display: flex;
+
+        align-items: center;
+
+        width: 100%;
+
+        height: fit-content;
+
+        flex-flow: column;
+
+        gap:0.5rem;
+
+    }
+
+    .categorieTitle{
+
+        transform: translateY(-7.5rem);
+
+        font-size: 2.5rem;
+
+    }
+
+
+    .titleForCategories{
+
+        font-size: 3rem;
+
+    }
+
+
+    .pageMainTitle{
+
+        font-size: 3.3rem;
+
+        margin-bottom: 5rem;
+
+    }
+
+
+    .slideDescription{
+
+        font-size: 0.7rem;
+
+        width:200px;
+
+        height:170px;
+
+        margin:0;
+
+        transform:translateY(-230px);
+
+        left:25%;
+
+
+    }
+
+    .recipeCard{
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    #footerLinksBox{
+
+        gap:0.5rem;
+
+        margin-left: 4rem;
+
+        flex-flow: column;
+
+    }
+
+
+    .footerLink{
+
+        font-size: 1rem;
+
+    }
+
+    .socialLinksTitle{
+
+        font-size: 1.2rem;
+
+        width: 100%;
+
+    }
+
+    .socialMediaIcon{
+
+        width: 2rem;
+        height: 2rem;
+
+    }
+
+
+    #footerIconsSection{
+
+        margin-right: 1rem;
+
+        padding: 0;
+
+    }
+
+
+    .pageFooter{
+
+        gap:0.3rem;
+
+        padding: 0;
+
+    }
+
+}
+
+
+@media(max-width:380px){
+
+    .slideDescription{
+
+        left: 18%;
+
+    }
+
+
+    .pageMainTitle{
+
+        font-size: 2.7rem;
+
+        margin-bottom: 4rem;
+
+        margin-top: 3rem;
+
+    }
+
+
+    .titleForCategories{
+
+        font-size: 2.5rem;
+
+        margin-bottom: 4rem;
+
+    }
+
+
+    .socialMediaIcon{
+
+        width: 1.5rem;
+        height: 1.5rem;
+
+    }
+
+
+    #footerIconsSection{
+
+        gap:0.5rem;
+
+    }
 
 }
